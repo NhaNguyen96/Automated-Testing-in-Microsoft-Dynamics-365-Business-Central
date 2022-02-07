@@ -2045,11 +2045,20 @@
       </DefaultValue>
       <Prompt>Customer_Phone_No_Caption</Prompt>
     </ReportParameter>
+    <ReportParameter Name="Customer_Lookup_Value_CodeCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Customer_Lookup_Value_CodeCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Customer_Lookup_Value_CodeCaption</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>16</NumberOfRows>
+      <NumberOfRows>17</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -2130,6 +2139,11 @@
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>15</RowIndex>
           <ParameterName>Customer_Phone_No_Caption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>16</RowIndex>
+          <ParameterName>Customer_Lookup_Value_CodeCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>

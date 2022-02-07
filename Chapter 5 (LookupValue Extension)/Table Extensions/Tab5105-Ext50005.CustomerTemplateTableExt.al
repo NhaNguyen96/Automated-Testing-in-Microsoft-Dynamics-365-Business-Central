@@ -8,5 +8,11 @@ tableextension 50005 "CustomerTemplateTableExt" extends "Customer Template" //51
             DataClassification = ToBeClassified;
             TableRelation = "LookupValue";
         }
+        // field(50001; "Insurance Value"; Code[10])
+        // {
+        //     Caption = 'Insurance Value';
+        //     DataClassification = ToBeClassified;
+        //     TableRelation = InsuranceValue;
+        // }
     }
 }

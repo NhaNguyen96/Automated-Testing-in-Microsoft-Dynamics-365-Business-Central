@@ -71,7 +71,8 @@ Report 50000 "CustomerList"
             }
             column(Customer_Lookup_Value_Code; "Lookup Value Code")
             {
-                // IncludeCaption = true;
+                IncludeCaption = true;
+
                 // outcommented as it appears not to work on an extension field
             }
             column(Customer_Lookup_Value_CodeCaption; FieldCaption("Lookup Value Code")) { }
