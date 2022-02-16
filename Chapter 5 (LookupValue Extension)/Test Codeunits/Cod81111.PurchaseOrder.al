@@ -1,4 +1,4 @@
-codeunit 81111 GetDataFromPurchaseTable
+codeunit 81112 GetDataFromPurchaseTable
 {
     var
         LibraryUtility: Codeunit "Library - Utility";

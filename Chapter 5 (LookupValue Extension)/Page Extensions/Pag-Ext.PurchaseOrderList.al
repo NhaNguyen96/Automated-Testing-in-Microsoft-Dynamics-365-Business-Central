@@ -20,4 +20,20 @@ pageextension 50057 "PurchaseOrderListPageExt" extends "Purchase Order List" //9
             }
         }
     }
+    actions
+    {
+        addbefore("P&osting")
+        {
+            action(GetItem)
+            {
+                ApplicationArea = All;
+                trigger OnAction()
+                begin
+                    GetItem.run();
+                end;
+            }
+        }
+    }
+    var
+        GetItem: Codeunit GetItemslistOnPurchaseOrder;
 }

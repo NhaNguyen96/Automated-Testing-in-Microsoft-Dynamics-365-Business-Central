@@ -12,4 +12,13 @@ pageextension 50062 "PurchaseOrderPageExt" extends "Purchase Order"
             }
         }
     }
+    // procedure TotalDiscountItem()
+
+    // var
+    //     PurchLine: Record "Purchase Line";
+    //     InsuranceValue: Boolean ;
+    //     DocAmount: Decimal;
+    //     RankOfVendor: Decimal;
+    //     PurchaseDis: Codeunit "Purch.-Calc.Discount";
+
 }
